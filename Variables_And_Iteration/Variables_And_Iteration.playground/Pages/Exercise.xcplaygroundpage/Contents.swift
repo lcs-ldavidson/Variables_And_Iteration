@@ -18,6 +18,75 @@ let canvas = Canvas(width: 300, height: 300)
 
 //: ## Add your code below
 
+//the dots
+
+canvas.defaultBorderWidth = 1
+
+
+for x in stride(from: 0, through: 300, by: 25) {
+    
+    for y in stride(from: 300, through: 0, by: -25) {
+    
+        canvas.drawEllipse(centreX: x, centreY: y, width: 2, height: 2)
+    
+    }
+    
+}
+
+//the mountains
+
+for a in stride(from: 200, through: 0, by: -1) {
+    
+    for b in stride(from: 150, through: 0, by: -1) {
+
+canvas.drawLine(fromX: 0, fromY: a, toX: 50, toY: b)
+
+    }}
+
+canvas.translate(byX: 100, byY: 0)
+
+
+//other mountain test
+
+for a in stride(from: 200, through: 0, by: -1) {
+    
+    for b in stride(from: 150, through: 0, by: -1) {
+        
+        canvas.drawLine(fromX: 0, fromY: a, toX: 50, toY: b)
+        
+    }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*:
