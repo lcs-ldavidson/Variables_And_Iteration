@@ -41,8 +41,6 @@ for x in stride(from: 0, through: 300, by: 25) {
 }
 
 
-
-
 canvas.lineColor = Color.init(hue: 0, saturation: 0, brightness: 70, alpha: 20)
 
 //the mountains
