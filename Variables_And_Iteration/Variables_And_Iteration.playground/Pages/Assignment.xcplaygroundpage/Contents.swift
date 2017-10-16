@@ -28,7 +28,7 @@ canvas.drawRectangle(centreX: 150, centreY: 150, width: 100, height: 100)
 
 
 
-
+canvas.fillColor = Color.black
 
 canvas.lineColor = Color.green
 
@@ -50,6 +50,92 @@ for x in stride(from: 0, through: 300, by: 30) {
 }
 
 }
+
+
+
+for a in stride(from: 0, through: 300, by: 150) {
+    
+    
+    
+    for b in stride(from: 0, through: 300, by: 150) {
+    
+    
+    
+    canvas.drawEllipse(centreX: a, centreY: b, width: 100, height: 100)
+    
+    
+    
+        
+    canvas.drawEllipse(centreX: a, centreY: b, width: 50, height: 50)
+    
+    
+    
+    }
+    
+    
+}
+
+
+canvas.fillColor = Color.white
+
+
+canvas.drawEllipse(centreX: 150, centreY: 150, width: 90, height: 30)
+
+canvas.fillColor = Color.red
+
+
+
+
+canvas.drawEllipse(centreX: 150, centreY: 150, width: 30, height: 30)
+
+
+canvas.fillColor = Color.black
+
+canvas.drawEllipse(centreX: 150, centreY: 150, width: 20, height: 20)
+
+
+
+canvas.fillColor = Color.white
+
+canvas.borderColor = Color.white
+
+canvas.drawEllipse(centreX: 160, centreY: 157, width: 16, height: 16)
+
+
+
+//THE LIGHT!!!!!
+
+
+canvas.drawShapesWithBorders = false
+
+
+
+
+
+
+
+    for w in stride(from: 600, through: 1, by: -3) {
+        
+        
+        
+canvas.fillColor = Color.init(hue: 50, saturation: 100, brightness: 100, alpha: 2)
+
+    canvas.drawEllipse(centreX: 300, centreY: 300, width: w, height: w)
+    
+    
+    
+}
+
+
+    
+
+
+
+
+
+
+
+
 
 
 
